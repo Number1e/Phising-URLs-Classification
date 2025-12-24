@@ -1,0 +1,3 @@
+# download all of the models from the google drive, then adjust your folder
+https://drive.google.com/drive/folders/170U2CchbDDuddp68mW45pByV0_3HErtE?usp=drive_link
+

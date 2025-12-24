@@ -1,0 +1,22 @@
+# Abaikan folder virtual environment
+.venv/
+venv/
+env/
+
+# Abaikan file cache Python
+__pycache__/
+*.pyc
+
+# Abaikan file sistem operasi
+.DS_Store
+
+# --- PENTING: ABAIKAN FILE MODEL BESAR ---
+# Github menolak file >100MB.
+# Kita ignore file bobot model, tapi biarkan file config.json kecil.
+*.h5
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.pkl

@@ -1,0 +1,15 @@
+[project]
+name = "UAP"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Eikko", email = "rabbaniesyafrizal@gmail.com"},
+]
+dependencies = ["torch==2.5.1", "torchvision==0.20.1", "torchaudio==2.5.1", "streamlit>=1.52.2", "pandas>=2.3.3", "numpy<2.0", "scikit-learn>=1.8.0", "matplotlib>=3.10.8", "seaborn>=0.13.2", "transformers>=4.57.3", "pytorch-tabular>=1.1.0", "tensorflow>=2.19.1"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
